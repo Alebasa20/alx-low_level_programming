@@ -4,7 +4,7 @@
 /**
  * main - Prints random number to variable
  *
- * Return: Always(Success)
+ * Return: Always(Successful)
  */
 int main(void)
 {
@@ -15,7 +15,7 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
-	printf("%s %d is %d and is", last, n, n % 10);
+	printf("Last digit of %d is %d and is", last, n, n % 10);
 	if (n % 10 > 5)
 	{
 		printf("greater than 5\n");
