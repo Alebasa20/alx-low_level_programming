@@ -9,12 +9,6 @@
 
 int _putchar(char c)
 {
-	char c;
-	{
-		putchar('_');
-	}
-
-	putchar('\n');
-
+	_putchar('_');
 	return (0);
-}
+}	
